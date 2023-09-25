@@ -16,16 +16,6 @@ MASOES (Model of Adaptive Social and Emotional Organisms) es un modelo conceptua
 
 El algoritmo en Python simula un sistema de agentes que siguen el modelo MASOES. Cada agente es modelado como una instancia de la clase `DynamicAgent`, que tiene métodos para actualizar la memoria (`update_memory`), adaptar el comportamiento (`adapt_behavior`), evaluar la adaptabilidad (`evaluate_adaptability`) y añadir ruido estocástico (`add_stochastic_noise`).
 
-### Ejemplo de Código
-
-```python
-class DynamicAgent:
-    def **init**(self):
-        self.emotion = np.random.uniform(-1, 1)
-        self.memory = []
-        self.adaptability_score = 0
-    # ... (otros métodos)
-```
 
 ### Aspectos Matemáticos
 
